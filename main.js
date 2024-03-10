@@ -1,0 +1,1 @@
+function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); } async function d() { var i=0; document.body.querySelectorAll('.VfPpkd-Bz112c-LgbsSe.yHy1rc.eT1oJ').forEach(async (e) => { await sleep(1000 * i++); e.click(); }); } d(); 
